@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sztár Ranglista 2026</title>
+    <style>
+        /* CSS - A honlap stílusa */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a148c;
+            margin-bottom: 1.5rem;
+        }
+
+        .lista {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sor {
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+
+        .sor:hover {
+            transform: scale(1.03);
+            background: #e9ecef;
+        }
+
+        .helyezes {
+            font-weight: bold;
+            width: 30px;
+            color: #764ba2;
+        }
+
+        .nev {
+            flex-grow: 1;
+            font-size: 1.1rem;
+        }
+
+        .pont {
+            background: #764ba2;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .arany { background: #ffd700; border: 2px solid #daa520; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>TOP Ranglista</h1>
+        <ul class="lista">
+            <li class="sor arany">
+                <span class="helyezes">1.</span>
+                <span class="nev">Palvin Barbara</span>
+                <span class="pont">10/10</span>
+            </li>
+            <li class="sor">
+                <span class="helyezes">2.</span>
+                <span class="nev">Madelyn Cline</span>
+                <span class="pont">9.5</span>
+            </li>
+            <li class="sor">
+                <span class="helyezes">3.</span>
+                <span class="nev">Georgina Rodriguez</span>
+                <span class="pont">9.2</span>
+            </li>
+            <li class="sor">
+                <span class="helyezes">4.</span>
+                <span class="nev">Magui Corceiro</span>
+                <span class="pont">8.8</span>
+            </li>
+            <li class="sor">
+                <span class="helyezes">5.</span>
+                <span class="nev">Kika Gomes</span>
+                <span class="pont">8.5</span>
+            </li>
+            <li class="sor">
+                <span class="helyezes">6.</span>
+                <span class="nev">Luisinha Oliveira</span>
+                <span class="pont">8.0</span>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
